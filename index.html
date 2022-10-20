@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h1 id='random_password_header'>random password</h1>
+        
+        <h5>Never use an insecure password again</h5>
+        
+        <div id='input_container'>
+            <div class='input_field'>
+                <input type="checkbox" id='checkbox1' name='checkbox1' checked></input>
+                <label for='checkbox1'>Symbols/Numbers</label>
+            </div>
+            
+            <div class='input_field'>
+                <input type="number" id='pass_length' name='pass_length' value=15></input>
+                <label for='pass_length'>Length</label>
+            </div>
+        </div>
+        
+        <button id='generate-btn' onclick='generate()'>Generate Password</button>
+        
+        <div id='passwords_container'>
+            <div class='password_box' id='password1'></div>
+        </div>
+        <button id='copy_text' onclick='copyText()'>Copy</button>
+        <script src="index.js"></script>
+    </body>
+</html>

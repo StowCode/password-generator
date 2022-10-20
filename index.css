@@ -1,0 +1,92 @@
+body {
+    margin: 50px;
+    background: #1F2937;
+}
+
+h1 {
+    color: white;
+}
+
+#random_password_header {
+    margin-top: -25px;
+    color: #4ADF86;
+}
+
+h5 {
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-weight: 100;
+    margin: -10px 0px 40px 0px;
+}
+
+/* INPUT CONTAINER */
+
+#input_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.input_field {
+    display: flex;
+    align-items: center;
+}
+
+#checkbox1 {
+    height: 20px;
+    width: 20px;
+}
+
+#pass_length {
+    width: 40px;
+}
+
+label {
+    color: white;
+    font-size: 13px;
+    font-family: Courier New, Courier, monospace;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+button {
+    background: #10B981;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#passwords_container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.password_box {
+    padding: 10px;
+    border-radius: 5px;
+    resize: both;
+    background: #273549;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 10px;
+    color: white;
+    text-align: center;
+    word-break:break-all;
+}
+
+#copy_text {
+    display: block;
+    margin: 15px auto;
+}
+
+#password1 {
+    height: 100%;
+    width: 100%;
+}
